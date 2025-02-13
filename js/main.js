@@ -1,5 +1,5 @@
 import { menu, menuBtns } from "./Menu/menu.js";
-import products from "./Products/Products.js";
+import products from "./mahsolat/Products.js";
 import slider from "./Slider/slider.js";
 
 async function allData() {
