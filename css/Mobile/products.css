@@ -1,0 +1,60 @@
+.products{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: var(--mainBgColor);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    .product{
+        min-width: 300px;
+        max-width: 300px;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: gray;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: 500ms;
+        &:hover{
+            transform: scale(1.05);
+        }
+        .title , .description , .rate {
+            text-transform: capitalize;
+            color: white;
+        }
+        img{
+            width: 50%;
+            border-radius: 10px;
+        }
+        .description{
+            width: 100%;
+            text-align: center;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .btn{
+            all: unset;
+            display: block;
+            width: fit-content;
+            background-color: green;
+            color: whitesmoke;
+            text-transform: capitalize;
+            text-decoration: none;
+            padding: 10px 20px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            transition: 400ms;
+            &:hover{
+                transform: scale(85%);
+            }
+        }
+    }
+}

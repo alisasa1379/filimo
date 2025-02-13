@@ -1,0 +1,56 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "title": "فیلیمو",
+      "href": "#"
+    },
+    {
+      "id": 2,
+      "title": "گنج فیلیمو",
+      "href": "#"
+    },
+    {
+      "id": 3,
+      "title": "فیلیمو مدرسه",
+      "href": "https://www.filimo.school/?utm_source=filimo-web&utm_medium=navigation&utm_campaign=filimo-user&utm_content=home"
+    },
+    {
+      "id": 4,
+      "title": "جستجو",
+      "href": "#"
+    }
+  ],
+  "menuBtns": [
+    {
+      "id": 1,
+      "title":"خرید اشتراک"
+    },
+    {
+      "id": 2,
+      "title":"ورود"
+    }
+  ],
+  "sliders":[
+    {
+        "id":1,
+        "src":"./images/sliders/slide1.webp",
+        "alt":"ffff"
+    },
+    {
+        "id":2,
+        "src":"./images/sliders/slide2.webp",
+        "alt":"fdsf"
+    },
+    {
+        "id":3,
+        "src":"./images/sliders/slide3.webp",
+        "alt":"fdsf"
+    },
+    {
+        "id":4,
+        "src":"./images/sliders/slide4.webp",
+        "alt":"fdsf"
+    }
+  ]
+}
